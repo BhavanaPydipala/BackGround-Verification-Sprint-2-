@@ -1,0 +1,27 @@
+<html>
+    <head>
+  
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+         
+      </head>
+
+
+    <body>
+        
+           
+   <br>         
+<div class="navbar navbar-expand-xs bg-dark" >
+    &nbsp;
+    <a routerLink="app-search-by-id"><h3><b style="color: white;">Search the Document by EmployeeId</b></h3></a>
+  
+    <a routerLink="app-search-by-name"><h3><b style="color: white;">Search the Document by EmployeeName</b></h3></a>
+    
+    <a routerLink="app-set-status"><h3><b style="color: whitesmoke;">Set status</b></h3></a>
+
+    <button (click)="logout()"><h4><b style="background-color: transparent;color: rgb(154, 150, 187);">Logout</b></h4></button>
+        </div>
+   
+    
+    <router-outlet></router-outlet>
+</body>
+</html>
